@@ -12,27 +12,65 @@ import os
 import re
 import time
 from typing import TypeVar, get_args, get_origin
+from pathlib import Path
 from pydantic import BaseModel, ValidationError
 
 logger = logging.getLogger("agents.llm")
 
 T = TypeVar("T", bound=BaseModel)
 
+
+def _load_env_if_present() -> None:
+    """Auto-load variables from .env file if it exists."""
+    candidates = [
+        Path.cwd() / ".env",
+        Path(__file__).resolve().parent.parent / ".env",
+    ]
+    for env_file in candidates:
+        if env_file.is_file():
+            try:
+                for line in env_file.read_text(encoding="utf-8").splitlines():
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        k = k.strip()
+                        v = v.strip().strip("'\"")
+                        if k and k not in os.environ:
+                            os.environ[k] = v
+            except Exception:
+                pass
+            break
+
+    # If grok key has gsk_ prefix, it is a Groq Cloud key
+    grok_key = os.environ.get("GROK_API_KEY", "")
+    if grok_key.startswith("gsk_") and not os.environ.get("GROQ_API_KEY"):
+        os.environ["GROQ_API_KEY"] = grok_key
+
+
+# Ensure .env is loaded on module import
+_load_env_if_present()
+
 # Default models per provider
 DEFAULT_MODELS = {
-    "gemini": "gemini-2.5-flash",
-    "groq": "llama-3.3-70b-versatile",
+    "gemini": os.environ.get("GEMINI_MODEL", "gemini-3.8-flash"),
+    "grok": os.environ.get("GROK_MODEL", "grok-2-latest"),
+    "groq": os.environ.get("GROQ_MODEL", "qwen/qwen3.8-27b"),
     "ollama": "llama3.2",
     "mock": "mock-deterministic",
 }
 
 
 def _clean_json_text(text: str) -> str:
-    """Strip markdown code block fences and clean json string."""
+    """Strip markdown code block fences and extract valid json string."""
     text = text.strip()
     match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
     if match:
         return match.group(1).strip()
+    # If no markdown block, extract between first { and last }
+    first_brace = text.find("{")
+    last_brace = text.rfind("}")
+    if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
+        return text[first_brace : last_brace + 1].strip()
     return text
 
 
@@ -244,9 +282,10 @@ def _generate_mock_response(prompt: str, schema: type[T]) -> T:
 
 def _call_gemini_live(prompt: str, schema: type[T], system: str | None, model: str) -> str:
     """Call Gemini provider with structured JSON instruction."""
-    api_key = os.environ.get("GEMINI_API_KEY")
+    _load_env_if_present()
+    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not api_key:
-        raise ValueError("GEMINI_API_KEY environment variable is required for provider 'gemini'")
+        raise ValueError("GEMINI_API_KEY or GOOGLE_API_KEY environment variable is required for provider 'gemini'")
 
     json_schema = json.dumps(schema.model_json_schema())
     full_prompt = (
@@ -296,6 +335,32 @@ def _call_groq_live(prompt: str, schema: type[T], system: str | None, model: str
     return response.choices[0].message.content or ""
 
 
+def _call_grok_live(prompt: str, schema: type[T], system: str | None, model: str) -> str:
+    """Call xAI Grok provider with structured JSON instruction."""
+    _load_env_if_present()
+    api_key = os.environ.get("GROK_API_KEY") or os.environ.get("XAI_API_KEY")
+    if not api_key:
+        raise ValueError("GROK_API_KEY or XAI_API_KEY environment variable is required for provider 'grok'")
+
+    from openai import OpenAI
+    client = OpenAI(api_key=api_key, base_url="https://api.x.ai/v1")
+    json_schema = json.dumps(schema.model_json_schema())
+    sys_content = (
+        f"{system or 'You are an accurate, verified business intelligence system.'}\n"
+        f"You MUST respond ONLY with valid JSON conforming to this schema:\n{json_schema}"
+    )
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": sys_content},
+            {"role": "user", "content": prompt},
+        ],
+        response_format={"type": "json_object"},
+        temperature=0.1,
+    )
+    return response.choices[0].message.content or ""
+
+
 def _call_ollama_live(prompt: str, schema: type[T], system: str | None, model: str) -> str:
     """Call Ollama local model with structured schema."""
     import ollama
@@ -313,6 +378,24 @@ def _call_ollama_live(prompt: str, schema: type[T], system: str | None, model: s
     return response.message.content or ""
 
 
+def _invoke_provider_raw(provider: str, prompt: str, schema: type[T], system: str | None, model: str) -> str:
+    """Route prompt to specific live provider."""
+    if provider == "gemini":
+        return _call_gemini_live(prompt, schema, system, model)
+    elif provider == "grok":
+        # If key is a Groq Cloud key (starts with gsk_), route to groq
+        if os.environ.get("GROQ_API_KEY", "").startswith("gsk_") or os.environ.get("GROK_API_KEY", "").startswith("gsk_"):
+            groq_model = os.environ.get("GROQ_MODEL", DEFAULT_MODELS["groq"])
+            return _call_groq_live(prompt, schema, system, groq_model)
+        return _call_grok_live(prompt, schema, system, model)
+    elif provider == "groq":
+        return _call_groq_live(prompt, schema, system, model)
+    elif provider == "ollama":
+        return _call_ollama_live(prompt, schema, system, model)
+    else:
+        raise ValueError(f"Unknown LLM_PROVIDER: {provider}")
+
+
 def call_structured(
     prompt: str,
     schema: type[T],
@@ -322,55 +405,74 @@ def call_structured(
     """Call LLM with structured output, retrying with backoff on rate limits.
 
     If output fails Pydantic validation, retries once with the validation
-    error feedback appended.
+    error feedback appended. If primary provider fails and fallback is available,
+    attempts fallback provider.
     """
+    _load_env_if_present()
     provider = os.environ.get("LLM_PROVIDER", "mock").lower()
     model = os.environ.get("LLM_MODEL", DEFAULT_MODELS.get(provider, "mock-deterministic"))
 
     if provider == "mock":
         return _generate_mock_response(prompt, schema)
 
+    # Determine fallback provider if any
+    fallback_provider = os.environ.get("LLM_FALLBACK_PROVIDER", "").lower()
+    if not fallback_provider:
+        if (os.environ.get("GROK_API_KEY") or os.environ.get("XAI_API_KEY")) and provider != "grok":
+            fallback_provider = "grok"
+        elif os.environ.get("GROQ_API_KEY") and provider != "groq":
+            fallback_provider = "groq"
+
+    providers_to_try = [provider]
+    if fallback_provider and fallback_provider != provider and fallback_provider in DEFAULT_MODELS:
+        providers_to_try.append(fallback_provider)
+
     last_error: Exception | None = None
-    validation_retried = False
-    current_prompt = prompt
 
-    for attempt in range(max_retries):
-        try:
-            if provider == "gemini":
-                raw_text = _call_gemini_live(current_prompt, schema, system, model)
-            elif provider == "groq":
-                raw_text = _call_groq_live(current_prompt, schema, system, model)
-            elif provider == "ollama":
-                raw_text = _call_ollama_live(current_prompt, schema, system, model)
-            else:
-                raise ValueError(f"Unknown LLM_PROVIDER: {provider}")
+    for active_provider in providers_to_try:
+        active_model = (
+            model
+            if active_provider == provider
+            else os.environ.get(f"{active_provider.upper()}_MODEL", DEFAULT_MODELS.get(active_provider, ""))
+        )
+        validation_retried = False
+        current_prompt = prompt
 
-            cleaned = _clean_json_text(raw_text)
-            data = json.loads(cleaned)
-            return schema.model_validate(data)
+        for attempt in range(max_retries):
+            try:
+                raw_text = _invoke_provider_raw(active_provider, current_prompt, schema, system, active_model)
+                cleaned = _clean_json_text(raw_text)
+                data = json.loads(cleaned)
+                return schema.model_validate(data)
 
-        except (json.JSONDecodeError, ValidationError) as val_err:
-            logger.warning(f"Schema validation error on attempt {attempt + 1}: {val_err}")
-            if not validation_retried:
-                validation_retried = True
-                current_prompt = (
-                    f"{prompt}\n\n[ATTENTION: Previous response failed schema validation with error: "
-                    f"{str(val_err)}. Return valid JSON matching the exact schema!]"
-                )
-                continue
-            last_error = val_err
+            except (json.JSONDecodeError, ValidationError) as val_err:
+                logger.warning(f"[{active_provider}] Schema validation error on attempt {attempt + 1}: {val_err}")
+                if not validation_retried:
+                    validation_retried = True
+                    current_prompt = (
+                        f"{prompt}\n\n[ATTENTION: Previous response failed schema validation with error: "
+                        f"{str(val_err)}. Return valid JSON matching the exact schema!]"
+                    )
+                    continue
+                last_error = val_err
 
-        except Exception as api_err:
-            err_str = str(api_err).lower()
-            is_rate_limit = any(term in err_str for term in ["429", "rate limit", "resource exhausted", "quota"])
-            if is_rate_limit and attempt < max_retries - 1:
-                backoff = 2 ** attempt
-                logger.warning(f"Rate limited. Backing off {backoff}s before retry... ({api_err})")
-                time.sleep(backoff)
-                continue
-            last_error = api_err
-            break
+            except Exception as api_err:
+                err_str = str(api_err).lower()
+                is_rate_limit = any(term in err_str for term in ["429", "rate limit", "resource exhausted", "quota"])
+                if is_rate_limit and attempt < max_retries - 1:
+                    backoff = 2 ** attempt
+                    logger.warning(f"[{active_provider}] Rate limited. Backing off {backoff}s before retry... ({api_err})")
+                    time.sleep(backoff)
+                    continue
+                last_error = api_err
+                break
 
-    # If live provider failed after retries, log and fallback to mock if requested or raise
+        if active_provider != providers_to_try[-1]:
+            logger.warning(
+                f"Primary provider '{active_provider}' failed with '{last_error}'. "
+                f"Switching to fallback provider '{providers_to_try[-1]}'..."
+            )
+
+    # If all configured providers failed
     logger.error(f"Structured LLM call failed for schema {schema.__name__}: {last_error}")
     raise RuntimeError(f"Failed to generate valid structured response for {schema.__name__}: {last_error}")
