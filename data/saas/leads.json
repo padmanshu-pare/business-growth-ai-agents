@@ -1,0 +1,302 @@
+[
+  {
+    "id": "lead_saas_001",
+    "name": "User 1 Smith",
+    "company": "HealthData Systems",
+    "role": "Head of DevOps",
+    "email": "lead.1@healthdatasystems.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_002",
+    "name": "User 2 Smith",
+    "company": "StreamScale",
+    "role": "Director of Infrastructure",
+    "email": "lead.2@streamscale.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_003",
+    "name": "User 3 Smith",
+    "company": "DataWeave",
+    "role": "Chief Technology Officer",
+    "email": "sarah.connor@cyberdyne-defense.com",
+    "source": "inbound_webinar",
+    "status": "opted_out",
+    "last_contacted": "2026-08-01"
+  },
+  {
+    "id": "lead_saas_004",
+    "name": "User 4 Smith",
+    "company": "LegacyRetail Corp",
+    "role": "Software Engineer",
+    "email": "lead.4@legacyretailcorp.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_005",
+    "name": "User 5 Smith",
+    "company": "Cyberdyne Defense",
+    "role": "Marketing Lead",
+    "email": "lead.5@cyberdynedefense.com",
+    "source": "inbound_webinar",
+    "status": "contacted",
+    "last_contacted": "2025-01-10"
+  },
+  {
+    "id": "lead_saas_006",
+    "name": "User 6 Smith",
+    "company": "RetailCo",
+    "role": "VP of Engineering",
+    "email": "lead.6@retailco.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_007",
+    "name": "User 7 Smith",
+    "company": "SaaSStack",
+    "role": "Head of DevOps",
+    "email": "lead.7@saasstack.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_008",
+    "name": "User 8 Smith",
+    "company": "QuickLogistics",
+    "role": "Director of Infrastructure",
+    "email": "lead.8@quicklogistics.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_009",
+    "name": "User 9 Smith",
+    "company": "BioMedix",
+    "role": "Chief Technology Officer",
+    "email": "lead.9@biomedix.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_010",
+    "name": "User 10 Smith",
+    "company": "FintechFlow",
+    "role": "Software Engineer",
+    "email": "lead.10@fintechflow.com",
+    "source": "linkedin_enrichment",
+    "status": "contacted",
+    "last_contacted": "2025-01-10"
+  },
+  {
+    "id": "lead_saas_011",
+    "name": "User 11 Smith",
+    "company": "HealthData Systems",
+    "role": "Marketing Lead",
+    "email": "lead.11@healthdatasystems.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_saas_012",
+    "name": "User 12 Smith",
+    "company": "StreamScale",
+    "role": "VP of Engineering",
+    "email": "lead.12@streamscale.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_013",
+    "name": "User 13 Smith",
+    "company": "DataWeave",
+    "role": "Head of DevOps",
+    "email": "lead.13@dataweave.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_014",
+    "name": "User 14 Smith",
+    "company": "LegacyRetail Corp",
+    "role": "Director of Infrastructure",
+    "email": "lead.14@legacyretailcorp.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_015",
+    "name": "User 15 Smith",
+    "company": "Cyberdyne Defense",
+    "role": "Chief Technology Officer",
+    "email": "lead.15@cyberdynedefense.com",
+    "source": "inbound_webinar",
+    "status": "contacted",
+    "last_contacted": "2025-01-10"
+  },
+  {
+    "id": "lead_saas_016",
+    "name": "User 16 Smith",
+    "company": "RetailCo",
+    "role": "Software Engineer",
+    "email": "lead.16@retailco.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_017",
+    "name": "User 17 Smith",
+    "company": "SaaSStack",
+    "role": "Marketing Lead",
+    "email": "lead.17@saasstack.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_saas_018",
+    "name": "User 18 Smith",
+    "company": "QuickLogistics",
+    "role": "VP of Engineering",
+    "email": "lead.18@quicklogistics.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_019",
+    "name": "User 19 Smith",
+    "company": "BioMedix",
+    "role": "Head of DevOps",
+    "email": "lead.19@biomedix.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_020",
+    "name": "User 20 Smith",
+    "company": "FintechFlow",
+    "role": "Director of Infrastructure",
+    "email": "lead.20@fintechflow.com",
+    "source": "linkedin_enrichment",
+    "status": "contacted",
+    "last_contacted": "2025-01-10"
+  },
+  {
+    "id": "lead_saas_021",
+    "name": "User 21 Smith",
+    "company": "HealthData Systems",
+    "role": "Chief Technology Officer",
+    "email": "lead.21@healthdatasystems.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_022",
+    "name": "User 22 Smith",
+    "company": "StreamScale",
+    "role": "Software Engineer",
+    "email": "lead.22@streamscale.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_023",
+    "name": "User 23 Smith",
+    "company": "DataWeave",
+    "role": "Marketing Lead",
+    "email": "lead.23@dataweave.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_saas_024",
+    "name": "User 24 Smith",
+    "company": "LegacyRetail Corp",
+    "role": "VP of Engineering",
+    "email": "lead.24@legacyretailcorp.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_025",
+    "name": "User 25 Smith",
+    "company": "Cyberdyne Defense",
+    "role": "Head of DevOps",
+    "email": "lead.25@cyberdynedefense.com",
+    "source": "inbound_webinar",
+    "status": "contacted",
+    "last_contacted": "2025-01-10"
+  },
+  {
+    "id": "lead_saas_026",
+    "name": "User 26 Smith",
+    "company": "RetailCo",
+    "role": "Director of Infrastructure",
+    "email": "lead.26@retailco.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_027",
+    "name": "User 27 Smith",
+    "company": "SaaSStack",
+    "role": "Chief Technology Officer",
+    "email": "lead.27@saasstack.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_028",
+    "name": "User 28 Smith",
+    "company": "QuickLogistics",
+    "role": "Software Engineer",
+    "email": "lead.28@quicklogistics.com",
+    "source": "linkedin_enrichment",
+    "status": "new",
+    "last_contacted": "2026-09-20"
+  },
+  {
+    "id": "lead_saas_029",
+    "name": "User 29 Smith",
+    "company": "BioMedix",
+    "role": "Marketing Lead",
+    "email": "lead.29@biomedix.com",
+    "source": "inbound_webinar",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_saas_030",
+    "name": "User 30 Smith",
+    "company": "FintechFlow",
+    "role": "VP of Engineering",
+    "email": "lead.30@fintechflow.com",
+    "source": "linkedin_enrichment",
+    "status": "contacted",
+    "last_contacted": "2025-01-10"
+  }
+]

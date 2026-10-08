@@ -1,0 +1,302 @@
+[
+  {
+    "id": "lead_ecom_001",
+    "name": "Buyer 1 Hansen",
+    "company": "LuxeStay Suites",
+    "role": "Interior Design Principal",
+    "email": "purchasing.1@luxestaysuites.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_002",
+    "name": "Buyer 2 Hansen",
+    "company": "Nordic Retreat Spa",
+    "role": "Purchasing Director",
+    "email": "purchasing.2@nordicretreatspa.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_003",
+    "name": "Buyer 3 Hansen",
+    "company": "Urban Loft Interiors",
+    "role": "Spa Operations Lead",
+    "email": "purchasing.3@urbanloftinteriors.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_004",
+    "name": "Buyer 4 Hansen",
+    "company": "BigBox Wholesale",
+    "role": "Front Desk Clerk",
+    "email": "purchasing.4@bigboxwholesale.com",
+    "source": "boutique_hospitality_directory",
+    "status": "contacted",
+    "last_contacted": "2024-11-05"
+  },
+  {
+    "id": "lead_ecom_005",
+    "name": "Buyer 5 Hansen",
+    "company": "BudgetInn Express",
+    "role": "Boutique Hotel General Manager",
+    "email": "no-contact@budgetinn.com",
+    "source": "tradeshow_contact",
+    "status": "opted_out",
+    "last_contacted": "2026-07-10"
+  },
+  {
+    "id": "lead_ecom_006",
+    "name": "Buyer 6 Hansen",
+    "company": "Coastal Haven B&B",
+    "role": "Interior Design Principal",
+    "email": "purchasing.6@coastalhavenb&b.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_007",
+    "name": "Buyer 7 Hansen",
+    "company": "The Highland Haven Hotel",
+    "role": "Purchasing Director",
+    "email": "purchasing.7@thehighlandhavenhotel.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_008",
+    "name": "Buyer 8 Hansen",
+    "company": "LuxeStay Suites",
+    "role": "Spa Operations Lead",
+    "email": "purchasing.8@luxestaysuites.com",
+    "source": "boutique_hospitality_directory",
+    "status": "contacted",
+    "last_contacted": "2024-11-05"
+  },
+  {
+    "id": "lead_ecom_009",
+    "name": "Buyer 9 Hansen",
+    "company": "Nordic Retreat Spa",
+    "role": "Front Desk Clerk",
+    "email": "purchasing.9@nordicretreatspa.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_ecom_010",
+    "name": "Buyer 10 Hansen",
+    "company": "Urban Loft Interiors",
+    "role": "Boutique Hotel General Manager",
+    "email": "purchasing.10@urbanloftinteriors.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_011",
+    "name": "Buyer 11 Hansen",
+    "company": "BigBox Wholesale",
+    "role": "Interior Design Principal",
+    "email": "purchasing.11@bigboxwholesale.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_012",
+    "name": "Buyer 12 Hansen",
+    "company": "BudgetInn Express",
+    "role": "Purchasing Director",
+    "email": "no-contact@budgetinn.com",
+    "source": "boutique_hospitality_directory",
+    "status": "opted_out",
+    "last_contacted": "2026-07-10"
+  },
+  {
+    "id": "lead_ecom_013",
+    "name": "Buyer 13 Hansen",
+    "company": "Coastal Haven B&B",
+    "role": "Spa Operations Lead",
+    "email": "purchasing.13@coastalhavenb&b.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_014",
+    "name": "Buyer 14 Hansen",
+    "company": "The Highland Haven Hotel",
+    "role": "Front Desk Clerk",
+    "email": "purchasing.14@thehighlandhavenhotel.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_ecom_015",
+    "name": "Buyer 15 Hansen",
+    "company": "LuxeStay Suites",
+    "role": "Boutique Hotel General Manager",
+    "email": "purchasing.15@luxestaysuites.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_016",
+    "name": "Buyer 16 Hansen",
+    "company": "Nordic Retreat Spa",
+    "role": "Interior Design Principal",
+    "email": "purchasing.16@nordicretreatspa.com",
+    "source": "boutique_hospitality_directory",
+    "status": "contacted",
+    "last_contacted": "2024-11-05"
+  },
+  {
+    "id": "lead_ecom_017",
+    "name": "Buyer 17 Hansen",
+    "company": "Urban Loft Interiors",
+    "role": "Purchasing Director",
+    "email": "purchasing.17@urbanloftinteriors.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_018",
+    "name": "Buyer 18 Hansen",
+    "company": "BigBox Wholesale",
+    "role": "Spa Operations Lead",
+    "email": "purchasing.18@bigboxwholesale.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_019",
+    "name": "Buyer 19 Hansen",
+    "company": "BudgetInn Express",
+    "role": "Front Desk Clerk",
+    "email": "no-contact@budgetinn.com",
+    "source": "tradeshow_contact",
+    "status": "opted_out",
+    "last_contacted": "2026-07-10"
+  },
+  {
+    "id": "lead_ecom_020",
+    "name": "Buyer 20 Hansen",
+    "company": "Coastal Haven B&B",
+    "role": "Boutique Hotel General Manager",
+    "email": "purchasing.20@coastalhavenb&b.com",
+    "source": "boutique_hospitality_directory",
+    "status": "contacted",
+    "last_contacted": "2024-11-05"
+  },
+  {
+    "id": "lead_ecom_021",
+    "name": "Buyer 21 Hansen",
+    "company": "The Highland Haven Hotel",
+    "role": "Interior Design Principal",
+    "email": "purchasing.21@thehighlandhavenhotel.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_022",
+    "name": "Buyer 22 Hansen",
+    "company": "LuxeStay Suites",
+    "role": "Purchasing Director",
+    "email": "purchasing.22@luxestaysuites.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_023",
+    "name": "Buyer 23 Hansen",
+    "company": "Nordic Retreat Spa",
+    "role": "Spa Operations Lead",
+    "email": "purchasing.23@nordicretreatspa.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_024",
+    "name": "Buyer 24 Hansen",
+    "company": "Urban Loft Interiors",
+    "role": "Front Desk Clerk",
+    "email": "purchasing.24@urbanloftinteriors.com",
+    "source": "boutique_hospitality_directory",
+    "status": "contacted",
+    "last_contacted": "2024-11-05"
+  },
+  {
+    "id": "lead_ecom_025",
+    "name": "Buyer 25 Hansen",
+    "company": "BigBox Wholesale",
+    "role": "Boutique Hotel General Manager",
+    "email": "purchasing.25@bigboxwholesale.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_026",
+    "name": "Buyer 26 Hansen",
+    "company": "BudgetInn Express",
+    "role": "Interior Design Principal",
+    "email": "no-contact@budgetinn.com",
+    "source": "boutique_hospitality_directory",
+    "status": "opted_out",
+    "last_contacted": "2026-07-10"
+  },
+  {
+    "id": "lead_ecom_027",
+    "name": "Buyer 27 Hansen",
+    "company": "Coastal Haven B&B",
+    "role": "Purchasing Director",
+    "email": "purchasing.27@coastalhavenb&b.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  },
+  {
+    "id": "lead_ecom_028",
+    "name": "Buyer 28 Hansen",
+    "company": "The Highland Haven Hotel",
+    "role": "Spa Operations Lead",
+    "email": "purchasing.28@thehighlandhavenhotel.com",
+    "source": "boutique_hospitality_directory",
+    "status": "contacted",
+    "last_contacted": "2024-11-05"
+  },
+  {
+    "id": "lead_ecom_029",
+    "name": "Buyer 29 Hansen",
+    "company": "LuxeStay Suites",
+    "role": "Front Desk Clerk",
+    "email": "purchasing.29@luxestaysuites.com",
+    "source": "tradeshow_contact",
+    "status": "new",
+    "last_contacted": null
+  },
+  {
+    "id": "lead_ecom_030",
+    "name": "Buyer 30 Hansen",
+    "company": "Nordic Retreat Spa",
+    "role": "Boutique Hotel General Manager",
+    "email": "purchasing.30@nordicretreatspa.com",
+    "source": "boutique_hospitality_directory",
+    "status": "new",
+    "last_contacted": "2026-09-12"
+  }
+]

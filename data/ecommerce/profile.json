@@ -1,0 +1,32 @@
+{
+  "name": "NordicLoom Home",
+  "industry": "E-commerce / Sustainable Home Textiles",
+  "offerings": [
+    "GOTS-certified organic cotton beddings",
+    "Artisan flax linen throw blankets",
+    "Zero-waste kitchen and bath towel bundles"
+  ],
+  "ideal_customer": "Boutique hotel managers, interior designers, and conscious wholesale buyers looking for premium eco-luxury bedding and sustainable guest amenities.",
+  "tone": "warm, aesthetic, sustainable, and design-forward",
+  "channels": [
+    "email",
+    "instagram_dm",
+    "linkedin"
+  ],
+  "anti_spam": {
+    "max_contacts_per_week": 1,
+    "quiet_hours": "18:00-09:00",
+    "opt_out_list": [
+      "wholesale-stop@bigboxretail.com",
+      "no-contact@budgetinn.com"
+    ]
+  },
+  "enabled_agents": [
+    "research",
+    "scoring",
+    "outreach",
+    "content",
+    "followup",
+    "learning"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "campaign_id": "cmp_agy_commercial_summer_prep",
+  "channel": "email",
+  "target_audience": "Metro Commercial Property Managers",
+  "outcomes": [
+    {
+      "lead_id": "lead_agy_001",
+      "draft_id": "d_a1",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Scheduled chiller audit for 80,000 sq ft medical building."
+    },
+    {
+      "lead_id": "lead_agy_002",
+      "draft_id": "d_a2",
+      "replied": true,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Requested Certificate of Insurance copy."
+    },
+    {
+      "lead_id": "lead_agy_003",
+      "draft_id": "d_a3",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": true,
+      "complaint": false,
+      "notes": "Strip mall owner unsubscribed."
+    },
+    {
+      "lead_id": "lead_agy_004",
+      "draft_id": "d_a4",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Booked site survey for 3 commercial RTU units."
+    },
+    {
+      "lead_id": "lead_agy_005",
+      "draft_id": "d_a5",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "No response."
+    },
+    {
+      "lead_id": "lead_agy_006",
+      "draft_id": "d_a6",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Urgent rooftop audit requested."
+    }
+  ]
+}

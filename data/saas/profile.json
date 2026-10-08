@@ -1,0 +1,32 @@
+{
+  "name": "CloudPulse Systems",
+  "industry": "B2B SaaS / DevOps & Observability",
+  "offerings": [
+    "Distributed tracing platform",
+    "Real-time microservice latency telemetry",
+    "Automated root-cause anomaly detection"
+  ],
+  "ideal_customer": "VP of Engineering, Head of Infrastructure, or DevOps Director at mid-to-enterprise tech companies (100-2,000 employees) with microservices architecture on Kubernetes.",
+  "tone": "consultative, technical, concise, and evidence-driven",
+  "channels": [
+    "email",
+    "linkedin"
+  ],
+  "anti_spam": {
+    "max_contacts_per_week": 2,
+    "quiet_hours": "19:00-08:00",
+    "opt_out_list": [
+      "unsubscribe@megacorp.internal",
+      "dnc@staleenterprise.io",
+      "sarah.connor@cyberdyne-defense.com"
+    ]
+  },
+  "enabled_agents": [
+    "research",
+    "scoring",
+    "outreach",
+    "content",
+    "followup",
+    "learning"
+  ]
+}

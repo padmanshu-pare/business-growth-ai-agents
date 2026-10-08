@@ -1,0 +1,302 @@
+[
+  {
+    "id": "lead_agy_001",
+    "name": "Manager 1 Vance",
+    "company": "Summit Plaza Medical",
+    "role": "Commercial Property Manager",
+    "email": "facilities.1@summitplazamedical.com",
+    "source": "building_permit_filing",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_002",
+    "name": "Manager 2 Vance",
+    "company": "Harbor Business Center",
+    "role": "Operations Director",
+    "email": "facilities.2@harborbusinesscenter.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_003",
+    "name": "Manager 3 Vance",
+    "company": "Eastside Logistics Park",
+    "role": "Building Engineer",
+    "email": "facilities.3@eastsidelogisticspark.com",
+    "source": "building_permit_filing",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_004",
+    "name": "Manager 4 Vance",
+    "company": "Strip Mall Holdings",
+    "role": "Residential Tenant",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "boma_metro_directory",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_005",
+    "name": "Manager 5 Vance",
+    "company": "Residential Realty",
+    "role": "Director of Facilities",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_006",
+    "name": "Manager 6 Vance",
+    "company": "Metro Tower One",
+    "role": "Commercial Property Manager",
+    "email": "facilities.6@metrotowerone.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_007",
+    "name": "Manager 7 Vance",
+    "company": "Summit Plaza Medical",
+    "role": "Operations Director",
+    "email": "facilities.7@summitplazamedical.com",
+    "source": "building_permit_filing",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_008",
+    "name": "Manager 8 Vance",
+    "company": "Harbor Business Center",
+    "role": "Building Engineer",
+    "email": "facilities.8@harborbusinesscenter.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_009",
+    "name": "Manager 9 Vance",
+    "company": "Eastside Logistics Park",
+    "role": "Residential Tenant",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_010",
+    "name": "Manager 10 Vance",
+    "company": "Strip Mall Holdings",
+    "role": "Director of Facilities",
+    "email": "facilities.10@stripmallholdings.com",
+    "source": "boma_metro_directory",
+    "status": "contacted",
+    "last_contacted": "2024-08-10"
+  },
+  {
+    "id": "lead_agy_011",
+    "name": "Manager 11 Vance",
+    "company": "Residential Realty",
+    "role": "Commercial Property Manager",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_012",
+    "name": "Manager 12 Vance",
+    "company": "Metro Tower One",
+    "role": "Operations Director",
+    "email": "facilities.12@metrotowerone.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_013",
+    "name": "Manager 13 Vance",
+    "company": "Summit Plaza Medical",
+    "role": "Building Engineer",
+    "email": "facilities.13@summitplazamedical.com",
+    "source": "building_permit_filing",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_014",
+    "name": "Manager 14 Vance",
+    "company": "Harbor Business Center",
+    "role": "Residential Tenant",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "boma_metro_directory",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_015",
+    "name": "Manager 15 Vance",
+    "company": "Eastside Logistics Park",
+    "role": "Director of Facilities",
+    "email": "facilities.15@eastsidelogisticspark.com",
+    "source": "building_permit_filing",
+    "status": "contacted",
+    "last_contacted": "2024-08-10"
+  },
+  {
+    "id": "lead_agy_016",
+    "name": "Manager 16 Vance",
+    "company": "Strip Mall Holdings",
+    "role": "Commercial Property Manager",
+    "email": "facilities.16@stripmallholdings.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_017",
+    "name": "Manager 17 Vance",
+    "company": "Residential Realty",
+    "role": "Operations Director",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_018",
+    "name": "Manager 18 Vance",
+    "company": "Metro Tower One",
+    "role": "Building Engineer",
+    "email": "facilities.18@metrotowerone.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_019",
+    "name": "Manager 19 Vance",
+    "company": "Summit Plaza Medical",
+    "role": "Residential Tenant",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_020",
+    "name": "Manager 20 Vance",
+    "company": "Harbor Business Center",
+    "role": "Director of Facilities",
+    "email": "facilities.20@harborbusinesscenter.com",
+    "source": "boma_metro_directory",
+    "status": "contacted",
+    "last_contacted": "2024-08-10"
+  },
+  {
+    "id": "lead_agy_021",
+    "name": "Manager 21 Vance",
+    "company": "Eastside Logistics Park",
+    "role": "Commercial Property Manager",
+    "email": "facilities.21@eastsidelogisticspark.com",
+    "source": "building_permit_filing",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_022",
+    "name": "Manager 22 Vance",
+    "company": "Strip Mall Holdings",
+    "role": "Operations Director",
+    "email": "facilities.22@stripmallholdings.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_023",
+    "name": "Manager 23 Vance",
+    "company": "Residential Realty",
+    "role": "Building Engineer",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_024",
+    "name": "Manager 24 Vance",
+    "company": "Metro Tower One",
+    "role": "Residential Tenant",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "boma_metro_directory",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_025",
+    "name": "Manager 25 Vance",
+    "company": "Summit Plaza Medical",
+    "role": "Director of Facilities",
+    "email": "facilities.25@summitplazamedical.com",
+    "source": "building_permit_filing",
+    "status": "contacted",
+    "last_contacted": "2024-08-10"
+  },
+  {
+    "id": "lead_agy_026",
+    "name": "Manager 26 Vance",
+    "company": "Harbor Business Center",
+    "role": "Commercial Property Manager",
+    "email": "facilities.26@harborbusinesscenter.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_027",
+    "name": "Manager 27 Vance",
+    "company": "Eastside Logistics Park",
+    "role": "Operations Director",
+    "email": "facilities.27@eastsidelogisticspark.com",
+    "source": "building_permit_filing",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_028",
+    "name": "Manager 28 Vance",
+    "company": "Strip Mall Holdings",
+    "role": "Building Engineer",
+    "email": "facilities.28@stripmallholdings.com",
+    "source": "boma_metro_directory",
+    "status": "new",
+    "last_contacted": "2026-09-05"
+  },
+  {
+    "id": "lead_agy_029",
+    "name": "Manager 29 Vance",
+    "company": "Residential Realty",
+    "role": "Residential Tenant",
+    "email": "do-not-solicit@residentialrealty.com",
+    "source": "building_permit_filing",
+    "status": "opted_out",
+    "last_contacted": "2026-06-15"
+  },
+  {
+    "id": "lead_agy_030",
+    "name": "Manager 30 Vance",
+    "company": "Metro Tower One",
+    "role": "Director of Facilities",
+    "email": "facilities.30@metrotowerone.com",
+    "source": "boma_metro_directory",
+    "status": "contacted",
+    "last_contacted": "2024-08-10"
+  }
+]

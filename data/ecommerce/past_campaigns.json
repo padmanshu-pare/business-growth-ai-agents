@@ -1,0 +1,61 @@
+{
+  "campaign_id": "cmp_ecom_fall_boutique",
+  "channel": "email",
+  "target_audience": "Boutique Hotel Purchasing Heads",
+  "outcomes": [
+    {
+      "lead_id": "lead_ecom_001",
+      "draft_id": "d_e1",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Requested sample swatch kit for 20 rooms."
+    },
+    {
+      "lead_id": "lead_ecom_002",
+      "draft_id": "d_e2",
+      "replied": true,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Asked about linen laundry durability."
+    },
+    {
+      "lead_id": "lead_ecom_003",
+      "draft_id": "d_e3",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": true,
+      "complaint": false,
+      "notes": "Budget property, unsubscribed."
+    },
+    {
+      "lead_id": "lead_ecom_004",
+      "draft_id": "d_e4",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Ordered sample bundle for luxury cabins."
+    },
+    {
+      "lead_id": "lead_ecom_005",
+      "draft_id": "d_e5",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "No reply."
+    },
+    {
+      "lead_id": "lead_ecom_006",
+      "draft_id": "d_e6",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Met with interior design director."
+    }
+  ]
+}

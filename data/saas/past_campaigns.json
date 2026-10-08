@@ -1,0 +1,97 @@
+{
+  "campaign_id": "cmp_saas_q3_devops",
+  "channel": "email",
+  "target_audience": "DevOps Directors at Series B-D companies",
+  "outcomes": [
+    {
+      "lead_id": "lead_saas_001",
+      "draft_id": "d_01",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Interested in OpenTelemetry compatibility."
+    },
+    {
+      "lead_id": "lead_saas_002",
+      "draft_id": "d_02",
+      "replied": true,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Asked for technical whitepaper on eBPF overhead."
+    },
+    {
+      "lead_id": "lead_saas_003",
+      "draft_id": "d_03",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": true,
+      "complaint": false,
+      "notes": "Unsubscribed via footer."
+    },
+    {
+      "lead_id": "lead_saas_004",
+      "draft_id": "d_04",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Booked demo call for Tuesday."
+    },
+    {
+      "lead_id": "lead_saas_005",
+      "draft_id": "d_05",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Stale contact bounced."
+    },
+    {
+      "lead_id": "lead_saas_006",
+      "draft_id": "d_06",
+      "replied": true,
+      "meeting_booked": true,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "High ICP fit, requested SOC 2 report."
+    },
+    {
+      "lead_id": "lead_saas_007",
+      "draft_id": "d_07",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "No response after 2 followups."
+    },
+    {
+      "lead_id": "lead_saas_008",
+      "draft_id": "d_08",
+      "replied": true,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "Contract pricing question - handed to AE."
+    },
+    {
+      "lead_id": "lead_saas_009",
+      "draft_id": "d_09",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": false,
+      "complaint": false,
+      "notes": "No response."
+    },
+    {
+      "lead_id": "lead_saas_010",
+      "draft_id": "d_10",
+      "replied": false,
+      "meeting_booked": false,
+      "unsubscribed": true,
+      "complaint": false,
+      "notes": "Opted out."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Apex Commercial Facilities",
+  "industry": "Commercial HVAC & Facilities Maintenance Services",
+  "offerings": [
+    "Commercial HVAC preventive maintenance contracts",
+    "Emergency chiller and rooftop RTU 2-hour dispatch",
+    "Energy management and ASHRAE IAQ air filtration audits"
+  ],
+  "ideal_customer": "Property Managers, Facility Directors, and Operations Executives managing commercial office towers, medical office buildings, or light industrial complexes in the metro area.",
+  "tone": "authoritative, dependable, local, and pragmatic",
+  "channels": [
+    "email",
+    "phone_followup"
+  ],
+  "anti_spam": {
+    "max_contacts_per_week": 2,
+    "quiet_hours": "17:30-07:30",
+    "opt_out_list": [
+      "do-not-solicit@residentialrealty.com",
+      "stop@strip-mall-holdings.biz"
+    ]
+  },
+  "enabled_agents": [
+    "research",
+    "scoring",
+    "outreach",
+    "content",
+    "followup",
+    "learning"
+  ]
+}
