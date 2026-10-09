@@ -87,3 +87,14 @@
   .animate-hero-drift, .growthx-orbit-node { animation: none !important; }
   * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Keep the GrowthX landing typography crisp and consistent with its product UI. */
+.growthx-shell .growthx-home h1,
+.growthx-shell .growthx-home h2,
+.growthx-shell .growthx-home h3,
+.growthx-shell .growthx-home h4 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 650;
+  letter-spacing: -0.045em;
+}
+.growthx-shell .growthx-home h1 { font-weight: 750; }
