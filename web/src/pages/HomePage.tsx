@@ -13,63 +13,44 @@ const capabilities = [
 export const HomePage: React.FC = () => (
   <PageShell theme="growthx" title="GrowthX — Turn intelligence into growth" description="A coordinated AI growth team to help businesses research, plan, and execute their next move—with people in control.">
     <div className="growthx-home">
-      <section className="growthx-hero relative grid items-center gap-10 py-14 md:py-20 lg:grid-cols-[1.02fr_0.98fr] lg:gap-4">
-        <div className="relative z-10 max-w-[650px]">
+      <section className="growthx-hero growthx-editorial-hero relative grid items-center gap-8 py-16 md:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
+        <div className="relative z-10 max-w-[700px]">
           <Reveal>
-            <div className="growthx-eyebrow inline-flex items-center gap-2 rounded-full border px-3.5 py-2 text-[11px] font-semibold uppercase tracking-[0.18em]">
-              <span className="growthx-live-dot" /> Your AI growth team
-            </div>
+            <p className="growthx-editorial-kicker">GROWTHX <span /> BUSINESS GROWTH, IN FOCUS</p>
           </Reveal>
-          <Reveal delay={0.08}>
-            <h1 className="mt-7 text-[clamp(3.25rem,7vw,6.4rem)] font-semibold leading-[0.98] tracking-[-0.065em] text-white">
-              Make your next <span className="growthx-gradient-text block">move count.</span>
+          <Reveal delay={0.06}>
+            <h1 className="growthx-editorial-title mt-8 text-[clamp(3.5rem,8vw,7rem)] leading-[0.94] tracking-[-0.075em] text-white">
+              Growth moves
+              <span className="growthx-editorial-second-line block">with intention.</span>
             </h1>
           </Reveal>
-          <Reveal delay={0.16}>
-            <p className="mt-7 max-w-[550px] text-base leading-8 text-slate-300 md:text-lg">
-              GrowthX brings AI agents together to help you understand your business, find opportunities, and turn strategy into action.
+          <Reveal delay={0.12}>
+            <p className="mt-7 max-w-[490px] text-base leading-8 text-slate-300 md:text-lg">
+              A clearer way to find opportunities, make confident decisions, and move your business forward.
             </p>
           </Reveal>
-          <Reveal delay={0.24}>
-            <div className="mt-9 flex flex-wrap items-center gap-3">
+          <Reveal delay={0.18}>
+            <div className="mt-9 flex flex-wrap items-center gap-5">
               <Button to="/workspace" className="growthx-cta group">Explore GrowthX <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" /></Button>
-              <Button variant="ghost" to="/how" className="growthx-secondary-cta">See how it works <ArrowUpRight className="ml-2 h-4 w-4" /></Button>
+              <Button variant="ghost" to="/how" className="growthx-secondary-cta">How it works <ArrowUpRight className="ml-2 h-4 w-4" /></Button>
             </div>
           </Reveal>
-          <Reveal delay={0.32}>
-            <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-slate-400">
-              <span className="inline-flex items-center gap-2"><Check className="h-4 w-4 text-cyan-300" /> Human-guided workflows</span>
-              <span className="inline-flex items-center gap-2"><Check className="h-4 w-4 text-cyan-300" /> One connected workspace</span>
-            </div>
+          <Reveal delay={0.24}>
+            <p className="mt-10 text-xs tracking-wide text-slate-500">Research <span className="mx-2 text-slate-700">/</span> Strategy <span className="mx-2 text-slate-700">/</span> Execution</p>
           </Reveal>
         </div>
 
-        <Reveal delay={0.12}>
-          <div className="growthx-visual relative mx-auto aspect-square w-full max-w-[570px]" aria-label="Abstract visualization of connected AI agents" role="img">
-            <div className="growthx-visual-grid" />
-            <div className="growthx-orbit growthx-orbit-one" />
-            <div className="growthx-orbit growthx-orbit-two" />
-            <div className="growthx-orbit growthx-orbit-three" />
-            <div className="growthx-orbit growthx-orbit-four" />
-            <div className="growthx-orbit-node node-top"><Sparkles size={17} /></div>
-            <div className="growthx-orbit-node node-right"><Compass size={17} /></div>
-            <div className="growthx-orbit-node node-bottom"><Workflow size={17} /></div>
-            <div className="growthx-orbit-node node-left"><Target size={17} /></div>
-            <div className="growthx-orbit-node node-upper-left"><Layers3 size={15} /></div>
-            <div className="growthx-orbit-node node-lower-right"><ShieldCheck size={15} /></div>
-            <div className="growthx-core-halo" />
-            <div className="growthx-core">
-              <div className="growthx-core-icon"><Command size={27} strokeWidth={1.6} /></div>
-              <span className="text-[10px] font-semibold uppercase tracking-[0.24em] text-cyan-200">GrowthX</span>
-              <span className="mt-1 text-xs text-slate-300">Intelligence hub</span>
-            </div>
-            <div className="growthx-float-label growthx-label-left"><span className="growthx-mini-dot" /> Research</div>
-            <div className="growthx-float-label growthx-label-right"><span className="growthx-mini-dot cyan" /> Strategy</div>
-            <div className="growthx-float-label growthx-label-bottom"><span className="growthx-mini-dot blue" /> Execution</div>
-            <div className="growthx-visual-caption">
-              <span className="flex items-center gap-2"><CircleDot className="h-3.5 w-3.5 text-cyan-300" /> AGENTS, CONNECTED</span>
-              <span className="text-slate-500">A coordinated system, not another silo</span>
-            </div>
+        <Reveal delay={0.1}>
+          <div className="growthx-editorial-art relative mx-auto w-full max-w-[520px]" role="img" aria-label="Minimal abstract blue light and form representing business momentum">
+            <div className="growthx-editorial-art-glow" />
+            <div className="growthx-editorial-art-plane" />
+            <div className="growthx-editorial-art-line line-one" />
+            <div className="growthx-editorial-art-line line-two" />
+            <div className="growthx-editorial-art-line line-three" />
+            <div className="growthx-editorial-art-disc" />
+            <div className="growthx-editorial-art-crescent" />
+            <div className="growthx-editorial-art-marker"><span /> GROWTH, IN MOTION</div>
+            <div className="growthx-editorial-art-index">01 <span>—</span> 03</div>
           </div>
         </Reveal>
       </section>
