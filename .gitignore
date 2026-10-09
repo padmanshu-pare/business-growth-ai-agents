@@ -44,6 +44,10 @@ htmlcov/
 
 # Local stores and runtime artifacts
 data/crm_store.json
+runtime/
+*.sqlite
+*.db
+*.zip
 
 # IDE and OS
 .vscode/

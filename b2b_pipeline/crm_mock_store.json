@@ -1,0 +1,1537 @@
+[
+  {
+    "company_name": "Anthropic",
+    "industry": "Anthropic Technologies / Enterprise Software",
+    "summary": "Anthropic is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Anthropic following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Anthropic's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Anthropic's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Anthropic",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Anthropic's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_a2dd901073",
+    "synced_at": "2026-10-08T15:51:23.544992+00:00"
+  },
+  {
+    "company_name": "Stripe",
+    "industry": "Stripe Technologies / Enterprise Software",
+    "summary": "Stripe is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Stripe following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Stripe's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Stripe's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Stripe",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Stripe's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_0b206e7bf7",
+    "synced_at": "2026-10-08T15:51:36.650604+00:00"
+  },
+  {
+    "company_name": "Acme Corp",
+    "industry": "Acme Corp Technologies / Enterprise Software",
+    "summary": "Acme Corp is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Acme Corp following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Acme Corp's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Acme Corp's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Acme Corp",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Acme Corp's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_69aff18f68",
+    "synced_at": "2026-10-08T15:52:51.826910+00:00"
+  },
+  {
+    "company_name": "Tesla",
+    "industry": "Tesla Technologies / Enterprise Software",
+    "summary": "Tesla is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Tesla following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Tesla's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Tesla's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Tesla",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Tesla's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_36ac43b824",
+    "synced_at": "2026-10-08T15:54:29.574776+00:00"
+  },
+  {
+    "company_name": "Applecd",
+    "industry": "Applecd Technologies / Enterprise Software",
+    "summary": "Applecd is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Applecd following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Applecd's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Applecd's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Applecd",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Applecd's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_b0f0205675",
+    "synced_at": "2026-10-08T16:00:26.667917+00:00"
+  },
+  {
+    "company_name": "Apple",
+    "industry": "Apple Technologies / Enterprise Software",
+    "summary": "Apple is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Apple following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Apple's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Apple's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Apple",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Apple's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_287ca1c445",
+    "synced_at": "2026-10-08T16:00:29.942587+00:00"
+  },
+  {
+    "company_name": "Microsoft",
+    "industry": "Microsoft Technologies / Enterprise Software",
+    "summary": "Microsoft is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Microsoft following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Microsoft's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Microsoft's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Microsoft",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Microsoft's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_bbed266fdb",
+    "synced_at": "2026-10-08T16:00:44.475698+00:00"
+  },
+  {
+    "company_name": "Acme Corp",
+    "industry": "Acme Corp Technologies / Enterprise Software",
+    "summary": "Acme Corp is an enterprise tech provider rapidly scaling operations. Recent funding and product launches highlight strong demand for automated workflow solutions.",
+    "key_personas": [
+      {
+        "name": "Alex Rivera",
+        "title": "VP of Revenue Operations",
+        "relevance": "Economic buyer / primary decision maker for sales workflow tools"
+      },
+      {
+        "name": "Jordan Chen",
+        "title": "Director of Business Development",
+        "relevance": "Evaluation lead & internal champion for SDR productivity automation"
+      },
+      {
+        "name": "Morgan Vance",
+        "title": "Head of Enterprise Sales",
+        "relevance": "Key stakeholder for sales pipeline integration"
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing for Acme Corp due to recent $75M Series C funding and expansion into EMEA & APAC, indicating immediate budget availability for RevOps scaling.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "description": "$75M Series C led by Horizon Ventures provides immediate budget for scaling operations.",
+          "source": "Recent Funding Data"
+        },
+        {
+          "signal_type": "Expansion",
+          "description": "Expanding global operations to EMEA & APAC regions, requiring robust automation.",
+          "source": "Recent News"
+        },
+        {
+          "signal_type": "Leadership Hiring",
+          "description": "Key executive leadership hires suggest strategic shifts and new tool evaluations.",
+          "source": "Recent News"
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling revenue operations at Acme Corp following Series C - $75M led by Horizon Ventures",
+        "body": "Hi Alex,\n\nCongrats on Acme Corp's recent momentum with Series C - $75M led by Horizon Ventures! Noticed your team's expansion into enterprise automation.\n\nWe help high-growth sales teams cut account research from 45 minutes to 60 seconds per lead while boosting response rates.\n\nWould you be open to a brief 10-minute chat next Tuesday?\n\nBest regards,\nB2B SDR Automation Team"
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Hi Alex \u2014 saw Acme Corp's impressive growth and expansion into enterprise software. Would love to connect and share how leading RevOps teams are automating account research."
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Re: Scaling revenue operations at Acme Corp",
+        "body": "Hi Alex,\n\nFollowing up on my previous note. Given Acme Corp's focus on market expansion, I thought you might appreciate seeing a 60-second workflow demo.\n\nDo you have 5 minutes open later this week?\n\nBest regards,\nB2B SDR Automation Team"
+      }
+    ],
+    "id": "crm_d92df1fb10",
+    "synced_at": "2026-10-08T16:46:57.510489+00:00"
+  },
+  {
+    "company_name": "Test",
+    "industry": "Test Technologies / Enterprise Software",
+    "summary": "Test is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at Test",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:01.136561+00:00",
+        "completed_at": "2026-10-08T17:00:02.341745+00:00",
+        "duration_ms": 1205.1629170018714,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:02.342888+00:00",
+        "completed_at": "2026-10-08T17:00:03.446766+00:00",
+        "duration_ms": 1103.84800000611,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:03.448861+00:00",
+        "completed_at": "2026-10-08T17:00:04.250531+00:00",
+        "duration_ms": 801.6564999998081,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:04.252365+00:00",
+        "completed_at": "2026-10-08T17:00:04.854404+00:00",
+        "duration_ms": 602.0305409983848,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:04.855217+00:00",
+        "completed_at": "2026-10-08T17:00:05.360403+00:00",
+        "duration_ms": 505.17841699911514,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:06.674838+00:00",
+        "completed_at": "2026-10-08T17:00:07.480047+00:00",
+        "duration_ms": 805.1988750012242,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:07.481144+00:00",
+        "completed_at": "2026-10-08T17:00:07.986285+00:00",
+        "duration_ms": 505.1324590021977,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-08T17:00:07.987354+00:00",
+        "completed_at": "2026-10-08T17:00:08.292994+00:00",
+        "duration_ms": 305.626041998039,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_0bc5dbe4b9",
+    "synced_at": "2026-10-08T17:00:08.599950+00:00"
+  },
+  {
+    "company_name": "OpenAI",
+    "industry": "OpenAI Technologies / Enterprise Software",
+    "summary": "OpenAI is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at OpenAI",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:09.859525+00:00",
+        "completed_at": "2026-10-08T17:02:11.064774+00:00",
+        "duration_ms": 1205.2313340027467,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:11.066519+00:00",
+        "completed_at": "2026-10-08T17:02:12.171875+00:00",
+        "duration_ms": 1105.32787500415,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:12.173859+00:00",
+        "completed_at": "2026-10-08T17:02:12.979178+00:00",
+        "duration_ms": 805.303000001004,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:12.981241+00:00",
+        "completed_at": "2026-10-08T17:02:13.583024+00:00",
+        "duration_ms": 601.7663340026047,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:13.585177+00:00",
+        "completed_at": "2026-10-08T17:02:14.089683+00:00",
+        "duration_ms": 504.48799999867333,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:15.403451+00:00",
+        "completed_at": "2026-10-08T17:02:16.208657+00:00",
+        "duration_ms": 805.1899589991081,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:16.210465+00:00",
+        "completed_at": "2026-10-08T17:02:16.714891+00:00",
+        "duration_ms": 504.41616700118175,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-08T17:02:16.715782+00:00",
+        "completed_at": "2026-10-08T17:02:17.021076+00:00",
+        "duration_ms": 305.28249999770196,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_ce11dc749c",
+    "synced_at": "2026-10-08T17:02:17.325210+00:00"
+  },
+  {
+    "company_name": "Anthropic",
+    "industry": "Anthropic Technologies / Enterprise Software",
+    "summary": "Anthropic is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at Anthropic",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:44.891009+00:00",
+        "completed_at": "2026-10-09T04:05:46.092235+00:00",
+        "duration_ms": 1201.212799991481,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:46.093702+00:00",
+        "completed_at": "2026-10-09T04:05:47.194428+00:00",
+        "duration_ms": 1100.7147000054829,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:47.195624+00:00",
+        "completed_at": "2026-10-09T04:05:47.996211+00:00",
+        "duration_ms": 800.5800999817438,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:47.997159+00:00",
+        "completed_at": "2026-10-09T04:05:48.597532+00:00",
+        "duration_ms": 600.3632000065409,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:48.598543+00:00",
+        "completed_at": "2026-10-09T04:05:49.099065+00:00",
+        "duration_ms": 500.51390001317486,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:50.403186+00:00",
+        "completed_at": "2026-10-09T04:05:51.203687+00:00",
+        "duration_ms": 800.4933999618515,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:51.204921+00:00",
+        "completed_at": "2026-10-09T04:05:51.705218+00:00",
+        "duration_ms": 500.2876999787986,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-09T04:05:51.706236+00:00",
+        "completed_at": "2026-10-09T04:05:52.006597+00:00",
+        "duration_ms": 300.355400016997,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_4445b1474e",
+    "synced_at": "2026-10-09T04:05:52.308121+00:00"
+  },
+  {
+    "company_name": "Anthropic",
+    "industry": "Anthropic Technologies / Enterprise Software",
+    "summary": "Anthropic is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at Anthropic",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:24.161996+00:00",
+        "completed_at": "2026-10-09T04:06:25.362443+00:00",
+        "duration_ms": 1200.4379000281915,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:25.363786+00:00",
+        "completed_at": "2026-10-09T04:06:26.463961+00:00",
+        "duration_ms": 1100.1672000274993,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:26.464783+00:00",
+        "completed_at": "2026-10-09T04:06:27.265170+00:00",
+        "duration_ms": 800.3793999669142,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:27.266474+00:00",
+        "completed_at": "2026-10-09T04:06:27.867029+00:00",
+        "duration_ms": 600.5423999740742,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:27.868283+00:00",
+        "completed_at": "2026-10-09T04:06:28.368849+00:00",
+        "duration_ms": 500.55980001343414,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:29.672556+00:00",
+        "completed_at": "2026-10-09T04:06:30.473169+00:00",
+        "duration_ms": 800.6057000020519,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:30.473947+00:00",
+        "completed_at": "2026-10-09T04:06:30.974548+00:00",
+        "duration_ms": 500.5935999797657,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-09T04:06:30.975381+00:00",
+        "completed_at": "2026-10-09T04:06:31.276156+00:00",
+        "duration_ms": 300.7676999550313,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_bcdd1dbd93",
+    "synced_at": "2026-10-09T04:06:31.577899+00:00"
+  },
+  {
+    "company_name": "Stripe",
+    "industry": "Stripe Technologies / Enterprise Software",
+    "summary": "Stripe is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at Stripe",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:34.372212+00:00",
+        "completed_at": "2026-10-09T04:35:35.576250+00:00",
+        "duration_ms": 1204.0276249972521,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:35.577626+00:00",
+        "completed_at": "2026-10-09T04:35:36.682951+00:00",
+        "duration_ms": 1105.320707996725,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:36.683607+00:00",
+        "completed_at": "2026-10-09T04:35:37.484172+00:00",
+        "duration_ms": 800.5625000005239,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:37.484656+00:00",
+        "completed_at": "2026-10-09T04:35:38.084900+00:00",
+        "duration_ms": 600.238665996585,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:38.085746+00:00",
+        "completed_at": "2026-10-09T04:35:38.591062+00:00",
+        "duration_ms": 505.2975830039941,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:39.905316+00:00",
+        "completed_at": "2026-10-09T04:35:40.710499+00:00",
+        "duration_ms": 805.1697080009035,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:40.712370+00:00",
+        "completed_at": "2026-10-09T04:35:41.217561+00:00",
+        "duration_ms": 505.1776249965769,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:41.219587+00:00",
+        "completed_at": "2026-10-09T04:35:41.520334+00:00",
+        "duration_ms": 300.74299999978393,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_5cd86c3b9c",
+    "synced_at": "2026-10-09T04:35:41.823049+00:00"
+  },
+  {
+    "company_name": "Datadog",
+    "industry": "Datadog Technologies / Enterprise Software",
+    "summary": "Datadog is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at Datadog",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:48.709572+00:00",
+        "completed_at": "2026-10-09T04:35:49.914773+00:00",
+        "duration_ms": 1205.1854580058716,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:49.918779+00:00",
+        "completed_at": "2026-10-09T04:35:51.023908+00:00",
+        "duration_ms": 1105.1261669999803,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:51.024537+00:00",
+        "completed_at": "2026-10-09T04:35:51.829666+00:00",
+        "duration_ms": 805.126666004071,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:51.830088+00:00",
+        "completed_at": "2026-10-09T04:35:52.435328+00:00",
+        "duration_ms": 605.2245829996536,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:52.437296+00:00",
+        "completed_at": "2026-10-09T04:35:52.941901+00:00",
+        "duration_ms": 504.60000000020955,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:54.251934+00:00",
+        "completed_at": "2026-10-09T04:35:55.057079+00:00",
+        "duration_ms": 805.1395410002442,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:55.057676+00:00",
+        "completed_at": "2026-10-09T04:35:55.562724+00:00",
+        "duration_ms": 505.04579200060107,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-09T04:35:55.563143+00:00",
+        "completed_at": "2026-10-09T04:35:55.869888+00:00",
+        "duration_ms": 306.7292920022737,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_3cf72abd84",
+    "synced_at": "2026-10-09T04:35:56.177484+00:00"
+  },
+  {
+    "company_name": "Anthropic",
+    "industry": "Anthropic Technologies / Enterprise Software",
+    "summary": "Anthropic is an expanding enterprise tech firm with recent funding.",
+    "key_personas": [
+      {
+        "role": "VP of Revenue Operations",
+        "persona_type": "Economic Buyer",
+        "reason": "Oversees tool spend and workflow efficiency.",
+        "relevance_score": 95,
+        "evidence": [
+          "RevOps teams typically own these purchases."
+        ]
+      },
+      {
+        "role": "Director of Sales Engineering",
+        "persona_type": "Technical Decision Maker",
+        "reason": "Evaluates integration capabilities.",
+        "relevance_score": 85,
+        "evidence": [
+          "New product launches indicate tech modernization."
+        ]
+      }
+    ],
+    "why_now_analysis": {
+      "score": 85,
+      "summary": "Strong timing due to recent funding and expansion signals.",
+      "signals": [
+        {
+          "signal_type": "Funding",
+          "title": "Series C Funding",
+          "description": "$75M led by Horizon Ventures",
+          "date": null,
+          "strength": 9,
+          "confidence": 0.98,
+          "source_url": null,
+          "source_name": "TechCrunch",
+          "business_impact": "Immediate budget availability for scaling operations."
+        },
+        {
+          "signal_type": "Expansion",
+          "title": "Global Expansion",
+          "description": "Expanding to EMEA & APAC",
+          "date": null,
+          "strength": 7,
+          "confidence": 0.9,
+          "source_url": null,
+          "source_name": "Company Press Release",
+          "business_impact": "Need for global workflow compliance tools."
+        }
+      ]
+    },
+    "outreach_sequence": [
+      {
+        "step_number": 1,
+        "channel": "email",
+        "subject": "Scaling RevOps at Anthropic",
+        "body": "Hi [Name], saw the recent funding. Let's chat."
+      },
+      {
+        "step_number": 2,
+        "channel": "linkedin",
+        "subject": null,
+        "body": "Congrats on the expansion to EMEA!"
+      },
+      {
+        "step_number": 3,
+        "channel": "email",
+        "subject": "Quick follow-up",
+        "body": "Any thoughts on automating account research?"
+      }
+    ],
+    "business_signals": [
+      {
+        "signal_type": "Funding",
+        "title": "Series C Funding",
+        "description": "$75M led by Horizon Ventures",
+        "date": null,
+        "strength": 9,
+        "confidence": 0.98,
+        "source_url": null,
+        "source_name": "TechCrunch",
+        "business_impact": "Immediate budget availability for scaling operations."
+      },
+      {
+        "signal_type": "Expansion",
+        "title": "Global Expansion",
+        "description": "Expanding to EMEA & APAC",
+        "date": null,
+        "strength": 7,
+        "confidence": 0.9,
+        "source_url": null,
+        "source_name": "Company Press Release",
+        "business_impact": "Need for global workflow compliance tools."
+      }
+    ],
+    "opportunity_score": 85,
+    "agent_executions": {
+      "research_account": {
+        "agent_name": "research_account",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:44.184118+00:00",
+        "completed_at": "2026-10-09T05:21:45.386950+00:00",
+        "duration_ms": 1202.8166659947601,
+        "confidence": 0.94
+      },
+      "detect_signals": {
+        "agent_name": "detect_signals",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:45.388015+00:00",
+        "completed_at": "2026-10-09T05:21:46.494488+00:00",
+        "duration_ms": 1106.4547919959296,
+        "confidence": 0.91
+      },
+      "detect_personas": {
+        "agent_name": "detect_personas",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:46.498233+00:00",
+        "completed_at": "2026-10-09T05:21:47.310764+00:00",
+        "duration_ms": 812.5293330012937,
+        "confidence": 0.86
+      },
+      "synthesize_intelligence": {
+        "agent_name": "synthesize_intelligence",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:47.311247+00:00",
+        "completed_at": "2026-10-09T05:21:47.916370+00:00",
+        "duration_ms": 605.1169589991332,
+        "confidence": 0.95
+      },
+      "detect_why_now": {
+        "agent_name": "detect_why_now",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:47.917178+00:00",
+        "completed_at": "2026-10-09T05:21:48.421652+00:00",
+        "duration_ms": 504.45370899979025,
+        "confidence": 0.94
+      },
+      "generate_outreach": {
+        "agent_name": "generate_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:49.736373+00:00",
+        "completed_at": "2026-10-09T05:21:50.539102+00:00",
+        "duration_ms": 802.7205420003156,
+        "confidence": 0.89
+      },
+      "critique_outreach": {
+        "agent_name": "critique_outreach",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:50.540569+00:00",
+        "completed_at": "2026-10-09T05:21:51.042384+00:00",
+        "duration_ms": 501.80749999708496,
+        "confidence": 0.95
+      },
+      "human_approval": {
+        "agent_name": "human_approval",
+        "status": "completed",
+        "started_at": "2026-10-09T05:21:51.043523+00:00",
+        "completed_at": "2026-10-09T05:21:51.345418+00:00",
+        "duration_ms": 301.8927090015495,
+        "confidence": 1.0
+      }
+    },
+    "id": "crm_faa79b3a42",
+    "synced_at": "2026-10-09T05:21:51.651299+00:00"
+  }
+]

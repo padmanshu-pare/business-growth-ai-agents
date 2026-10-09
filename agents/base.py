@@ -16,68 +16,13 @@ logger = logging.getLogger("agents.base")
 # Base directory for prompt templates
 PROMPTS_DIR = Path(__file__).parent / "prompts"
 
-# Explicit permission map: allowed capabilities and strictly forbidden actions per agent
-AGENT_PERMISSIONS: dict[str, dict[str, list[str]]] = {
-    "research": {
-        "allowed_tools": ["read_crm", "search_kb", "web_search_stub"],
-        "forbidden_actions": ["write_copy", "send", "edit_kb", "quote_price"],
-    },
-    "scoring": {
-        "allowed_tools": ["evaluate_fit", "evaluate_timing", "read_memory"],
-        "forbidden_actions": ["contact_lead", "send", "write_copy", "edit_kb"],
-    },
-    "outreach": {
-        "allowed_tools": ["grounded_drafting"],
-        "forbidden_actions": ["web_search", "send", "edit_kb", "invent_claims"],
-    },
-    "content": {
-        "allowed_tools": ["grounded_content_generation"],
-        "forbidden_actions": ["web_search", "send", "edit_kb", "invent_claims"],
-    },
-    "followup": {
-        "allowed_tools": ["analyze_reply", "record_opt_out"],
-        "forbidden_actions": ["quote_price", "send", "invent_claims"],
-    },
-    "learning": {
-        "allowed_tools": ["aggregate_metrics", "generate_insights"],
-        "forbidden_actions": ["change_policy", "edit_anti_spam", "send"],
-    },
-}
-
-
-class PermissionDeniedError(RuntimeError):
-    """Raised when an agent attempts a forbidden action or unpermitted tool."""
-    pass
-
-
-def check_permission(agent_name: str, action: str) -> None:
-    """Validate that an agent has permission to execute an action."""
-    perms = AGENT_PERMISSIONS.get(agent_name)
-    if not perms:
-        raise PermissionDeniedError(f"Agent '{agent_name}' has no defined permission boundary.")
-
-    forbidden = perms.get("forbidden_actions", [])
-    if action in forbidden:
-        raise PermissionDeniedError(
-            f"SECURITY VIOLATION: Agent '{agent_name}' is forbidden from executing '{action}'."
-        )
-
-    allowed = perms.get("allowed_tools", [])
-    if action not in allowed:
-        raise PermissionDeniedError(
-            f"SECURITY VIOLATION: Action '{action}' is not in allowed tools for agent '{agent_name}'."
-        )
-
-
-def enforce_permission(agent_name: str, action_name: str) -> Callable:
-    """Decorator to protect functions and ensure the caller agent has permission."""
-    def decorator(fn: Callable) -> Callable:
-        @functools.wraps(fn)
-        def wrapper(*args: Any, **kwargs: Any) -> Any:
-            check_permission(agent_name, action_name)
-            return fn(*args, **kwargs)
-        return wrapper
-    return decorator
+# Explicit permission map and check imported from central core engine
+from core.permissions import (
+    AGENT_PERMISSIONS,
+    PermissionDeniedError,
+    check_permission,
+    enforce_node_permission as enforce_permission,
+)
 
 
 def load_prompt_template(agent_name: str, **variables: Any) -> str:
@@ -117,6 +62,15 @@ def record_trace(
         timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat(),
     )
     state["trace"].append(event)
+
+    run_id = state.get("run_id")
+    if run_id:
+        try:
+            from core.repo import get_repo
+            get_repo().append_trace(run_id, event)
+        except Exception:
+            pass
+
 
 
 def agent_node(agent_name: str) -> Callable:
