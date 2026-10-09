@@ -8,6 +8,7 @@ interface PageShellProps {
   title?: string;
   description?: string;
   className?: string;
+  theme?: 'default' | 'growthx';
 }
 
 export const PageShell: React.FC<PageShellProps> = ({
@@ -15,22 +16,21 @@ export const PageShell: React.FC<PageShellProps> = ({
   title = 'Verity — Growth, verified',
   description = 'Agents that find leads, write outreach and follow up. Every claim is checked. You approve what goes out.',
   className = '',
+  theme = 'default',
 }) => {
   const shouldReduceMotion = useReducedMotion();
+  const isGrowthX = theme === 'growthx';
 
   useEffect(() => {
     document.title = title;
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', description);
-    }
+    if (metaDesc) metaDesc.setAttribute('content', description);
     window.scrollTo(0, 0);
   }, [title, description]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-bg text-text selection:bg-[#8F703620] selection:text-text">
-      <Nav />
-
+    <div className={`min-h-screen flex flex-col bg-bg text-text selection:bg-[#8F703620] selection:text-text ${isGrowthX ? 'growthx-shell' : ''}`}>
+      <Nav theme={isGrowthX ? 'growthx' : 'default'} />
       <motion.main
         initial={shouldReduceMotion ? { opacity: 1 } : { opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -40,8 +40,7 @@ export const PageShell: React.FC<PageShellProps> = ({
       >
         {children}
       </motion.main>
-
-      <Footer />
+      <Footer theme={isGrowthX ? 'growthx' : 'default'} />
     </div>
   );
 };
